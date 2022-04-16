@@ -2,7 +2,7 @@ import medios from '../assets/img/medios.png'
 const Intro = ()=>{
 
     return(
-        <section className="page-section portfolio" id="portfolio">
+        <section className="page-section2 portfolio pb-2" id="portfolio">
             <h3 className="text-center text-uppercase text-secondary mb-0">Medios de cultivo</h3>
             <div className="container">
             <div className="divider-custom">

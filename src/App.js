@@ -6,6 +6,8 @@ import Objective from './components/Objective';
 import Sustratos from './components/Sustratos';
 import Micoorganism from './components/Micoorganism';
 import Medios from './components/Environm';
+import Diseno from './components/Design';
+import Determ from './components/Determ';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Sustratos />
       <Micoorganism />
       <Medios />
+      <Diseno />
+      <Determ />
     </div>
   );
 }
