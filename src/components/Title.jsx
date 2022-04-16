@@ -1,7 +1,12 @@
+/* eslint-disable */
 import img1 from '../assets/img/unt.png'
 import img2 from '../assets/img/proimi-conicet.png'
 
 const Title = () => {
+    let carla = "https://www.linkedin.com/in/carla-romano-674455201/"
+    let johan = "https://www.linkedin.com/in/johan-sebastian-hero-5b3aaa86/"
+    let alejandra = "https://www.linkedin.com/in/alejandra-mart%C3%ADnez-84330746"
+    
     return (
         <header className="masthead bg-primary text-white text-center">
             <div className="container d-flex align-items-center flex-column">
@@ -17,16 +22,24 @@ const Title = () => {
                     <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                
-                <a className="masthead-subheading font-weight-light mb-0" href="https://www.linkedin.com/in/carla-romano-674455201/" target="_blank">Carla Romano</a>
-                <a className="masthead-subheading font-weight-light mb-0" >José Horacio Pisa</a>
-                <a className="masthead-subheading font-weight-light mb-0" href="https://www.linkedin.com/in/johan-sebastian-hero-5b3aaa86/" target="_blank">Johan Sebastián Hero</a>
-                <a className="masthead-subheading font-weight-light mb-0" href="https://www.linkedin.com/in/alejandra-mart%C3%ADnez-84330746" target="_blank">María Alejandra Martínez</a>
-            
+                <div>
+                    <a className="font-weight-light mb-0" href={carla}>Carla Romano</a>
+                </div>
+                <div>
+                    <a className="font-weight-light mb-0" >José Horacio Pisa</a>
+                </div>
+                <div>
+                    <a className="font-weight-light mb-0" href={johan}>Johan Sebastián Hero</a>
+                </div>
+                <div>
+                    <a className="font-weight-light mb-0" href={alejandra}>María Alejandra Martínez</a>
+                </div>
             </div>
         </header>
     )
-  }
+}
   
   export default Title;
   
+/*
+*/
