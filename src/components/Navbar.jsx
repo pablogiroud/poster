@@ -1,50 +1,39 @@
+import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap'
 
-import { Nav } from "react-bootstrap"
-
-const Navbar = () => {
+const NavbarCR = () => {
   return (
-    <Nav
-      className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
-      <div className="container">
-        <a className="navbar-brand" href="#page-top">
-        Disertacion 2022 UBA
-        </a>
-        <button
-          className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          ...
-          <i className="fas fa-bars"></i>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">
-                Descargar Poster
-              </a>
-            </li>
-            <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">
-                About
-              </a>
-            </li>
-            <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </Nav>
+    <Navbar className="navbarCR" expand="lg" sticky="top">
+      <Container>
+        <Navbar.Brand href="#inicio">Carla Romano - UBA 2022</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#top">Inicio</Nav.Link>
+            <Nav.Link href="#intro">Introduccion</Nav.Link>
+            <Nav.Link href="#obj">Objetivos</Nav.Link>
+            <NavDropdown title="Materiales y Métodos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#sust">
+                Sustratos liofilizados
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#mircoo">
+                Mircoorganismos
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#medios">
+                Medios de cultivo
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#diseno">
+                Diseño experimental
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#det">
+                Determinacion analítica
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#resultados">Resultados</Nav.Link>
+            <Nav.Link href="#conclusiones">Conclusiones</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
-
-export default Navbar
+export default NavbarCR;

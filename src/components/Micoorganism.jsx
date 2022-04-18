@@ -5,7 +5,7 @@ import wc from '../assets/img/wc.jpg'
 
 const Micoorganism = () => {
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className="page-section portfolio" id="microo">
       <div className="container">
         <h3 className="text-center text-uppercase text-secondary mb-0">
           Microorganismos

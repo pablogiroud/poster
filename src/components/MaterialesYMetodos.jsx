@@ -2,11 +2,11 @@ import xosarroz from '../assets/img/xos-arroz.png'
 import xosbagazo from '../assets/img/xos-bagazo.png'
 import xossalvadotrigo from '../assets/img/xos-salvado-trigo.png'
 
-const Sustratos = ()=>{
+const MaterialesYMetodos = ()=>{
 
     return(
-        <section className="page-section portfolio" id="portfolio">
-            <div className="container">
+        <section className="page-section portfolio" id="matymet">
+            <div className="container" id="sust">
                 <h2 className="page-section-heading text-center text-uppercase text-secondary mb-4">Materiales y métodos</h2>
                 <h3 className="text-center text-uppercase text-secondary mb-0">Sustratos liofilizados</h3>
                 <div className="divider-custom">
@@ -48,4 +48,4 @@ const Sustratos = ()=>{
     )
 }
 
-export default Sustratos;
+export default MaterialesYMetodos;

@@ -19,7 +19,7 @@ const Diseno = () => {
   ))
 
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className=" title page-section portfolio pb-5" id="diseno">
       <h3 className="text-center text-uppercase text-secondary mb-0">
         Diseño Experimental
       </h3>
