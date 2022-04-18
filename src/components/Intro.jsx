@@ -12,6 +12,15 @@ const Intro = ()=>{
             </div>
             <img className="img-fluid2" src={prebioticos} alt="..." />
             </div>
+            <div>
+                <p className="objText">
+                    Numerosos estudios han demostrado que la proliferación de
+                    estas bacterias probióticas no solo refuerzan el sistema inmune
+                    del hospedador, sino que también ayudan a prevenir y combatir
+                    infecciones causadas por bacterias enteropatógenas, tales como
+                    Escherichia coli O157:H7, entre otras.
+                </p>
+            </div>
         </section>
     )
 }

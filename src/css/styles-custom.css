@@ -1,0 +1,55 @@
+.page-section {
+  padding-top: 6rem;
+}
+
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+.objText {
+  font-size: 3rem;
+  line-height: 3rem;
+  padding-top: 5%;
+}
+
+@media (max-width: 778px) {
+  .flex-row {
+    flex-direction: column !important;
+  }
+  .masthead {
+    padding-top: calc(6rem);
+    padding-bottom: 3rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 1.8rem;
+    line-height: 1.7rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+  .masthead .masthead-avatar {
+    width: 90%;
+  }
+  .img-fluid {
+    max-width: 40%;
+    height: auto;
+  }
+  .objText {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 5%;
+  }
+  .page-section {
+    padding-top: 3rem;
+  }
+  .page-section .page-section-heading {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+}

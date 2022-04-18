@@ -21,7 +21,7 @@ const Sustratos = ()=>{
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img className="img-fluid" src={xosarroz} alt="..." />
-                            <h3 className="text-center text-uppercase text-secondary mt-3">XOS de cáscara de arroz</h3>
+                            <h4 className="text-center text-uppercase text-secondary mt-3">XOS de cáscara de arroz</h4>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
@@ -30,7 +30,7 @@ const Sustratos = ()=>{
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img className="img-fluid" src={xosbagazo} alt="..." />
-                            <h3 className="text-center text-uppercase text-secondary mt-3">XOS de bagazo de caña de azúcar</h3>
+                            <h4 className="text-center text-uppercase text-secondary mt-3">XOS de bagazo de caña de azúcar</h4>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
@@ -39,7 +39,7 @@ const Sustratos = ()=>{
                                 <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img className="img-fluid" src={xossalvadotrigo} alt="..." />
-                            <h3 className="text-center text-uppercase text-secondary mt-3">XOS de salvado de trigo</h3>
+                            <h4 className="text-center text-uppercase text-secondary mt-3">XOS de salvado de trigo</h4>
                         </div>
                     </div>
                 </div>

@@ -11,8 +11,8 @@ const Title = () => {
         <header className="masthead bg-primary text-white text-center">
             <div className="container d-flex align-items-center flex-column">
                 <div className="container d-flex justify-content-around align-items-center flex-row">
-                    <img className="masthead-avatar mb-3" src={img2} alt="PROIMI BIOTECNOLOGÍA CONICET" />
-                    <img className="masthead-avatar mb-3" src={img1} alt="UNT" />
+                    <img className="masthead-avatar img-fluid mb-3" src={img2} alt="PROIMI BIOTECNOLOGÍA CONICET" />
+                    <img className="masthead-avatar img-fluid mb-3" src={img1} alt="UNT" />
                 </div>
                 
                 <h1 className="masthead-heading text-uppercase mb-0">EVALUACIÓN DEL POTENCIAL PREBIÓTICO DE XILOOLIGOSACÁRIDOS OBTENIDOS A PARTIR DE RESIDUOS AGROINDUSTRIALES</h1>
