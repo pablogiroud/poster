@@ -1,10 +1,16 @@
+import { Card } from 'react-bootstrap'
+import lbb from '../assets/img/lbb.png'
+import lbp from '../assets/img/lbp.png'
+import wc from '../assets/img/wc.jpg'
+
 const Micoorganism = () => {
   return (
     <section className="page-section portfolio" id="portfolio">
       <div className="container">
-        <h3 class="page-section-heading text-center text-uppercase text-secondary mb-4">
-          Mircoorganismos
+        <h3 className="text-center text-uppercase text-secondary mb-0">
+          Microorganismos
         </h3>
+        <p>(imágenes ilustrativas)</p>
         <div className="divider-custom">
           <div className="divider-custom-line"></div>
           <div className="divider-custom-icon">
@@ -12,57 +18,30 @@ const Micoorganism = () => {
           </div>
           <div className="divider-custom-line"></div>
         </div>
-        <div className="row justify-content-center">
-          <div className="col-md-6 col-lg-4 mb-5 w-25 p-3 h-25 d-inline-block">
-            <div
-              className="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal1"
-              >
-                <h1>1</h1>
-              <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div className="portfolio-item-caption-content text-center text-white">
-                  <i className="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h3 className="text-center text-uppercase text-secondary mt-3">
-                Lactobacillus brevis D5MZ 269
-              </h3>
-            </div>
+        <div className="cardsCustom">
+          <div className="cards">
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={lbb} />
+              <Card.Body>
+                <Card.Title>Lactobacillus brevis D5MZ 269</Card.Title>
+              </Card.Body>
+            </Card>
           </div>
-          <div className="col-md-6 col-lg-4 mb-5 w-25 p-3 h-25 d-inline-block">
-            <div
-              className="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal1"
-              >
-                <h1>2</h1>
-              <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div className="portfolio-item-caption-content text-center text-white">
-                  <i className="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h3 className="text-center text-uppercase text-secondary mt-3">
-              Lactobacillus plantarum ATCC 14917
-              </h3>
-            </div>
+          <div className="cards">
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={lbp} />
+              <Card.Body>
+                <Card.Title>Lactobacillus plantarum ATCC 14917</Card.Title>
+              </Card.Body>
+            </Card>
           </div>
-          <div className="col-md-6 col-lg-4 mb-5 w-25 p-3 h-25 d-inline-block">
-            <div
-              className="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal1"
-              >
-                <h1>3</h1>
-              <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div className="portfolio-item-caption-content text-center text-white">
-                  <i className="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h3 className="text-center text-uppercase text-secondary mt-3">
-              Weissella cibaria 92
-              </h3>
-            </div>
+          <div className="cards">
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={wc} />
+              <Card.Body>
+                <Card.Title>Weissella cibaria 92</Card.Title>
+              </Card.Body>
+            </Card>
           </div>
         </div>
       </div>
@@ -70,4 +49,4 @@ const Micoorganism = () => {
   )
 }
 
-export default Micoorganism;
+export default Micoorganism

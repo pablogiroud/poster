@@ -1,3 +1,5 @@
+import { ListGroup } from 'react-bootstrap'
+
 const Diseno = () => {
   const list1 = [
     'Glucosa',
@@ -10,10 +12,14 @@ const Diseno = () => {
     'Inulina (1g/l) + XOS (1g/l) de WB',
     'Inulina (1g/l) + XOS (1g/l) de CA',
   ]
-  const lista = list1.map((list1) => <li key={list1.toString()}>{list1}</li>)
+  const lista = list1.map((list1) => (
+    <ListGroup as="li" key={list1.toString()}>
+      - {list1}
+    </ListGroup>
+  ))
 
   return (
-    <section className="page-section2 portfolio" id="portfolio">
+    <section className="page-section portfolio" id="portfolio">
       <h3 className="text-center text-uppercase text-secondary mb-0">
         Diseño Experimental
       </h3>
@@ -26,26 +32,15 @@ const Diseno = () => {
           <div className="divider-custom-line"></div>
         </div>
         <div>
-          <h4 className="text-center text-uppercase text-secondary mb-0">
+          <h4 className="text-center text-secondary mb-0">
             Crecimiento en Laptg modificado (fuente de carbono 2g/l)
           </h4>
         </div>
-        <div
-          className="portfolio-item mx-auto"
-          data-bs-toggle="modal"
-          data-bs-target="#portfolioModal1"
-        >
-          <div className="portfolio-item-caption d-flex h-100 w-100">
-            <div className="portfolio-item-caption-content text-white">
-              <i className="fas fa-plus fa-3x"></i>
-            </div>
-          </div>
-          <h5 className="text-secondary mt-3">{lista}</h5>
-          <hr />
-          <h5 className="text-secondary mt-3">
-            Incubación a 37° - Condiciones estáticas - 72hs
-          </h5>
-        </div>
+        <ListGroup as="ul" className="text-secondary mt-3">{lista}</ListGroup>
+        <hr />
+        <p className="text-secondary">
+          Incubación a 37° - Condiciones estáticas - 72hs
+        </p>
       </div>
     </section>
   )
