@@ -1,15 +1,25 @@
-:root {
+/*
   --poster-c1: #fabfb7;
   --poster-c2: #fdf9c4;
   --poster-c3: #ffda9e;
   --poster-c4: #c5c6c8;
   --poster-c5: #b2e2f2;
+  #0175bc
+*/
+.navbarCR{
+  background-color: #fdf9c4 !important;
+  color: #0175bc !important;
 }
-
+.title{
+  background-color: #b2e2f2 !important;
+  color: #0175bc !important;
+}
 .page-section {
   padding-top: 6rem;
 }
-
+.names{
+  color: #0175bc !important;
+}
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -43,13 +53,15 @@
   width: 25%;
   padding: 1rem !important;
 }
+.nb{
+  background-color: #b2e2f2 !important;
+}
 
 @media (max-width: 778px) {
   .flex-row {
     flex-direction: column !important;
   }
   .masthead {
-    padding-top: calc(6rem);
     padding-bottom: 3rem;
   }
   .masthead .masthead-heading {

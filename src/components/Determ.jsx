@@ -5,7 +5,7 @@ import phimetro from '../assets/img/phimetro.png'
 
 const Determ = () => {
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className="page-section portfolio" id="det">
       <div className="container">
         <h3 className="text-center text-uppercase text-secondary mb-0">
           Determinaciones analíticas

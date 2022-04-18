@@ -1,6 +1,6 @@
 const Objective = () => {
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className="page-section portfolio" id="obj">
       <h2 className="page-section-heading text-center text-uppercase text-secondary mb-4">
         Objetivos
       </h2>
