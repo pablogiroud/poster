@@ -1,8 +1,8 @@
 const Micoorganism = () => {
   return (
-    <section className="page-section2 portfolio" id="portfolio">
+    <section className="page-section portfolio" id="portfolio">
       <div className="container">
-        <h3 className="text-center text-uppercase text-secondary mb-0">
+        <h3 class="page-section-heading text-center text-uppercase text-secondary mb-4">
           Mircoorganismos
         </h3>
         <div className="divider-custom">

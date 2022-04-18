@@ -9,7 +9,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-        Disertacion 2022 UBA by Carla Romano
+        Disertacion 2022 UBA
         </a>
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
