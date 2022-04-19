@@ -4,7 +4,7 @@ const NavbarCR = () => {
   return (
     <Navbar className="navbarCR" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#inicio">Carla Romano - UBA 2022</Navbar.Brand>
+        <Navbar.Brand href="#top">Carla Romano - UBA 2022</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -29,11 +29,13 @@ const NavbarCR = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#resultados">Resultados</Nav.Link>
-            <Nav.Link href="#conclusiones">Conclusiones</Nav.Link>
+            <Nav.Link href="#conclusion">Conclusion</Nav.Link>
+            <Nav.Link href="#referencias">Referencias</Nav.Link>
+            <Nav.Link href="#agradecimientos">Agradecimientos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   )
 }
-export default NavbarCR;
+export default NavbarCR
