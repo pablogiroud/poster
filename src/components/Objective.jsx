@@ -12,12 +12,12 @@ const Objective = () => {
           </div>
           <div className="divider-custom-line"></div>
         </div>
-          <p className="objText">
-            Evaluar la utilización de moléculas potencialmente prebióticas
-            obtenidas por hidrólisis enzimática de xilanos (XOS) procedentes de
-            las materias primas secundarias salvado de trigo (WB), bagazo de
-            caña de azúcar (Bzo) y cáscara de arroz (CA).
-          </p>
+        <div className="objText">
+          Evaluar la utilización de moléculas potencialmente prebióticas
+          obtenidas por hidrólisis enzimática de xilanos (XOS) procedentes de
+          las materias primas secundarias salvado de trigo (WB), bagazo de caña
+          de azúcar (Bzo) y cáscara de arroz (CA).
+        </div>
       </div>
     </section>
   )

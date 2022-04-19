@@ -1,4 +1,3 @@
-import './App.css';
 import Title from './components/Title';
 import NavbarCR from './components/Navbar';
 import Intro from './components/Intro';
@@ -8,6 +7,11 @@ import Micoorganism from './components/Micoorganism';
 import Medios from './components/Environm';
 import Diseno from './components/Design';
 import Determ from './components/Determ';
+import Resultados from './components/Resultados';
+import Conclusion from './components/Conclusion';
+import Referencias from './components/Referencias';
+import Agradecimientos from './components/Agradecimientos'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +25,11 @@ function App() {
       <Medios />
       <Diseno />
       <Determ />
+      <Resultados />
+      <Conclusion />
+      <Referencias />
+      <Agradecimientos />
+      <Footer />
     </div>
   );
 }
