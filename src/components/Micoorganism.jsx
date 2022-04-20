@@ -10,7 +10,15 @@ const Micoorganism = () => {
         <h3 className="text-center text-uppercase text-secondary mb-0">
           Microorganismos
         </h3>
-        <p>(imágenes ilustrativas)</p>
+        <div className="text-center">
+          <h6>
+            (imágenes a modo ilustrativo
+            <sup>
+              <a href="#referencias">(7)</a>
+            </sup>
+            )
+          </h6>
+        </div>
         <div className="divider-custom">
           <div className="divider-custom-line"></div>
           <div className="divider-custom-icon">
@@ -23,7 +31,7 @@ const Micoorganism = () => {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={lbb} />
               <Card.Body>
-                <Card.Title>Lactobacillus brevis D5MZ 269</Card.Title>
+                <Card.Title>Lactobacillus brevis DSMZ 269</Card.Title>
               </Card.Body>
             </Card>
           </div>

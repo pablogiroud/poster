@@ -16,23 +16,21 @@ const Agradecimientos = () => {
           <ul className="list-unstyled">
             <h5>Este trabajo fue realizado en PROIMI, con el aporte de:</h5>
             <li className="list-unstyled pb-2">
-                VT42-UNT11881. "Producción de prebióticos". Convocatoria
-                “Universidades Agregando Valor 2018”. Resolución 2018 - 109 -
-                APN - SECPU – MECCYT.
+              VT42-UNT11881. "Producción de prebióticos". Convocatoria
+              “Universidades Agregando Valor 2018”. Resolución 2018 - 109 - APN
+              - SECPU – MECCYT.
             </li>
             <li className="list-unstyled pb-2">
-                - PICT-2017-2185. "Enzimas activas sobre carbohidratos
-                complejos: estudios genómicos y bioquímicos para aplicaciones en
-                biorrefinería". Resolución ANPCYT Nº 310-18.
+              - PICT-2017-2185. "Enzimas activas sobre carbohidratos complejos:
+              estudios genómicos y bioquímicos para aplicaciones en
+              biorrefinería". Resolución ANPCYT Nº 310-18.
             </li>
             <li className="list-unstyled pb-2">
-                - IC-904. Producción y formulación de cócteles enzimáticos para
-                la valoración de recursos agroindustriales ricos en
-                carbohidratos. Resolución 1556/2021. USPT.
+              - IC-904. Producción y formulación de cócteles enzimáticos para la
+              valoración de recursos agroindustriales ricos en carbohidratos.
+              Resolución 1556/2021. USPT.
             </li>
-            <li>
-              Se agradece la asistencia informática del Sr. Pablo Giroud.
-            </li>
+            <li>Se agradece la asistencia informática del Sr. Pablo Giroud.</li>
           </ul>
         </div>
       </div>

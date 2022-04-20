@@ -21,7 +21,7 @@ const Determ = () => {
           <div className="cards-25">
             <img className="img-fluid" src={espectrofotometro} alt="..." />
             <div className="cards-25">
-              <span>
+            <span className="text-center">
                 DO<sub>600nm</sub> Espectrofotómetro
               </span>
             </div>
@@ -29,7 +29,7 @@ const Determ = () => {
           <div className="cards-25">
             <img className="img-fluid" src={placadeelisa} alt="..." />
             <div className="cards-25">
-              <span>
+              <span className="text-center">
                 DO<sub>600nm</sub> Placas de Elisa
               </span>
             </div>
@@ -37,16 +37,14 @@ const Determ = () => {
           <div className="cards-25">
             <img className="img-fluid" src={lagota} alt="..." />
             <div className="cards-25">
-              <span>UFC - Método de la gota (24hs/48hs/72hs)</span>
+            <span className="text-center">UFC - Método de la gota (24hs/48hs/72hs)</span>
             </div>
           </div>
           <div className="cards-25">
             <img className="img-fluid" src={phimetro} alt="..." />
-            <div className="cards-25">
-              <span>
-                pH - Indicativo de producción de ácidos de cadenas cortas
-              </span>
-            </div>
+            <span className="text-center">
+              pH - Indicativo de producción de ácidos de cadenas cortas
+            </span>
           </div>
         </div>
       </div>

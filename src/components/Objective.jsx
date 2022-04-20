@@ -13,10 +13,29 @@ const Objective = () => {
           <div className="divider-custom-line"></div>
         </div>
         <div className="objText">
-          Evaluar la utilización de moléculas potencialmente prebióticas
-          obtenidas por hidrólisis enzimática de xilanos (XOS) procedentes de
-          las materias primas secundarias salvado de trigo (WB), bagazo de caña
-          de azúcar (Bzo) y cáscara de arroz (CA).
+          Evaluar la utilización por bacterias <i>Lactobacillus brevis</i> DSMZ
+          269
+          <sup>
+            <a className="p-0" href="#referencias">
+              (4)
+            </a>
+          </sup>
+          ,<i>Lactobacillus plantarum</i> ATCC 14917
+          <sup>
+            <a className="p-0" href="#referencias">
+              (5)
+            </a>
+          </sup>
+          y <i>Weissella cibaria</i> cepa 92
+          <sup>
+            <a className="p-0" href="#referencias">
+              (6)
+            </a>
+          </sup>
+          , de moléculas potencialmente prebióticas obtenidas por hidrólisis
+          enzimática de xilanos (XOS) procedentes de las materias primas
+          secundarias salvado de trigo (WB), bagazo de caña de azúcar (Bzo) y
+          cáscara de arroz (CA).
         </div>
       </div>
     </section>
