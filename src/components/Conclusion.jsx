@@ -17,7 +17,7 @@ const Conclusion = () => {
           xilooligasacáridos obtenidos de materias primas secundarias de la
           agroindustria agregados al medio de cultivo, promovieron el
           crecimiento de <i>L. brevis</i> DSMZ 269, <i>L. plantarum</i> ATCC
-          14917 y W. cibaria cepa 92. Fue observado que los XOS derivados de
+          14917 y <i>W. cibaria</i> cepa 92. Fue observado que los XOS derivados de
           caña de azúcar produjeron el mayor efecto sobre el crecimiento de las
           cepas ensayadas, por lo que nuestros resultados contribuyen agregar
           valor a materias primas secundarias como una alternativa promisoria y

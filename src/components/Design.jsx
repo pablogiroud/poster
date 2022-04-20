@@ -36,7 +36,9 @@ const Diseno = () => {
             Crecimiento en Laptg modificado (fuente de carbono 2g/l)
           </h4>
         </div>
-        <ListGroup as="ul" className="text-secondary mt-3">{lista}</ListGroup>
+        <ListGroup as="ul" className="text-secondary mt-3">
+          {lista}
+        </ListGroup>
         <hr />
         <p className="text-secondary">
           Incubación a 37° - Condiciones estáticas - 72hs

@@ -23,7 +23,7 @@ const Intro = () => {
         </a>
       </div>
 
-      <div className="objText">
+      <div className="objText px-4">
         Numerosos estudios han demostrado que la proliferación de estas
         bacterias probióticas no solo refuerzan el sistema inmune del
         hospedador, sino que también ayudan a prevenir y combatir infecciones

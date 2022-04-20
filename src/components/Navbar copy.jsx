@@ -1,5 +1,4 @@
-
-import { Nav } from "react-bootstrap"
+import { Nav } from 'react-bootstrap'
 
 const Navbar = () => {
   return (
@@ -9,7 +8,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-        Disertacion 2022 UBA
+          Disertacion 2022 UBA
         </a>
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -26,7 +25,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item mx-0 mx-lg-1">
-              <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 rounded"
+                href="#portfolio"
+              >
                 Descargar Poster
               </a>
             </li>
